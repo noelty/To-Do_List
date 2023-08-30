@@ -107,7 +107,7 @@ body {
     background-color: hsl(0, 0%, 100%);
     display: flex;
     flex-direction: column;
-    padding: 4em;
+    padding: 3.5em;
     justify-content: center;
     row-gap: 1em;
     border-radius: 5px;
@@ -119,7 +119,7 @@ body {
     border-radius: 5px;
 }
 .list-item:hover {
-    background-color: hsl(191, 44%, 64%);
+    background-color: hsl(189, 44%, 81%);
 }
 ul.list {
     padding: 0;
