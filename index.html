@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do List</title>
-    <!-- CSS Styles -->
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,11 +16,11 @@
 <body>
     <div class="container">
         <h1 class="font-family-main main-heading">To-Do List</h1>
-        <div class="input-field">
-            <input type="text" placeholder="Add to the list" id="list-input" class="font-family-main margin-bottom-50 padding-50">
-            <button id="add-btn" class="font-family-main add-btn padding-50">Add now</button>
+        <div class="mb-3">
+            <input type="text" placeholder="Add to the list" id="list-input" class="form-control">
+            <button id="add-btn" class="btn btn-primary">Add now</button>
         </div>
-        <ul id="list" class="list">
+        <ul id="list" class="list-group">
             <!-- <li class="list-item font-family-main padding-50">Some random text</li> -->
         </ul>
     </div>
